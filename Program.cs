@@ -5,6 +5,10 @@ double b = double.Parse(Console.ReadLine());
 Console.Write("Введите третью сторону: ");
 double c = double.Parse(Console.ReadLine());
 
-double p = (a + b + c) / 2;
-Console.WriteLine($"Периметр: {a+b+c}");
-Console.WriteLine($"Площадь: {Math.Sqrt(p*(p-a)*(p-b)*(p-c)):F2}");
+
+double p = a + b + c;
+Console.WriteLine($"Периметр: {p}");
+
+double semiP = (a + b + c) / 2;
+Console.WriteLine($"Площадь: {Math.Sqrt(semiP*(semiP-a)*(semiP-b)*(semiP-c)):F2}");
+// Проверка Git
