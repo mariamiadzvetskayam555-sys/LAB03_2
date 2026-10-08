@@ -11,4 +11,3 @@ Console.WriteLine($"Периметр: {p}");
 
 double semiP = (a + b + c) / 2;
 Console.WriteLine($"Площадь: {Math.Sqrt(semiP*(semiP-a)*(semiP-b)*(semiP-c)):F2}");
-// Проверка Git
